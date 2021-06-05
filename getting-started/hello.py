@@ -1,1 +1,2 @@
-print('Hello, tensorflow!')
+def hello_tensor():
+  print('Hello, tensorflow!')
