@@ -1,8 +1,5 @@
 name: Hello Tensorflow
-on:
-  push:
-    branches:
-      - getting-started
+on: [push, pull]
 
 jobs:
   build:
