@@ -1,4 +1,4 @@
 import hello
 
 def test_output():
-    assert hello == print("Hello, tensorflow!")
+    assert hello.hello_tensor() == print("Hello, tensorflow!")
